@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(241, 237, 237);
+}
+
+#tecnologia {
+    padding-top: 20px;
+}
+
+.item {
+    background-color: brown;
+    height: 50px;
+    width: 50px;
+}
+
+
+
+h3 {
+    color:  rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+#titulo{
+    color: rgb(233, 229, 229);
+}
+
+.time {
+    color: rgb(134, 123, 123);
+}
+
+.img {
+    height: 200px;
+    width: 300px;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.article article {  
+    width: 30%;
+}
+
+header li {
+    display: inline;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+
+header a {
+    color: rgb(233, 229, 229);
+    text-decoration: none;
+    margin-left: 8px;
+
+}
+
+#cabeçalho {
+    background-color: rgb(70, 69, 69);
+    padding: 16px 200px;
+
+}
+section {
+    padding: 16px 200px;
+}
+
+section h2,
+.article article {
+    margin-bottom: 16px;
+}
+
+.article article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.article article a {
+    color: white;
+    padding: 8px;
+    display: block;
+    border-radius: 10%;
+    text-decoration: none;
+    width: 80px;
+}
+
+.article article a:hover {
+    text-decoration: underline;
+}
+
+.article article p,
+.article article a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.article article p,
+.article article h3 {
+    display: inline-block;
+    width: 300px;
+    text-align: left;
+}
+section h2 {
+    font-size:  36px;
+}
+
+#esporte {
+    background-color: rgba(30, 255, 0, 0.1);
+}
+
+#economia {
+    background-color: rgba(255, 251, 0, 0.185);
+}
+#tecnologia {
+    background-color: rgba(62, 28, 255, 0.151);
+}
+
+#enterterimento {
+    background-color: rgba(242, 18, 250, 0.151);
+}
+
+#esporte a{
+    background-color: rgba(30, 255, 0, 0.541);
+}
+
+#economia a {
+    background-color: rgba(255, 251, 0, 0.651);
+}
+
+#tecnologia a {
+    background-color: rgba(62, 28, 255, 0.808);
+}
+
+#enterterimento a {
+    background-color: rgba(242, 18, 250, 0.692);
+}
